@@ -1,0 +1,55 @@
+Body {
+  background: linear-gradient(to right, rgb(43, 148, 235), #09d6d3);
+  font: normal 1rem Arial;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 0.625rem;
+  padding: 1rem;
+  width: 31.25rem;
+  margin: auto;
+  box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.288);
+}
+
+#button {
+  background: rgb(43, 148, 235);
+  color: white;
+  border-color: black;
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+  width: 6rem;
+}
+
+#button:hover {
+  cursor: pointer;
+  background: white;
+  color: rgb(43, 148, 235);
+  border-color: rgb(43, 148, 235);
+  transition: 0.5s;
+}
+
+#txtNas {
+  text-align: center;
+}
+
+#result {
+  padding: 10px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font: italic 1.2rem Arial;
+}
